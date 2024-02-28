@@ -1,0 +1,46 @@
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    background: var(--black);
+}
+
+.hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-left {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-left h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.orange-circle {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: -10%;
+    right: 28%;
+    background: var(--orange-gradient);
+    z-index: -1;
+    border-radius: 100%;
+}
