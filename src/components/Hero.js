@@ -3,10 +3,11 @@ import heroImage from '../assets/hero-image.png'
 import { HiLocationMarker } from 'react-icons/hi'
 import CountUp from 'react-countup'
 import '../styles/Hero.css'
+import Companies from './Companies'
 
 function Hero() {
   return (
-    <section className="hero-wrapper">
+    <><section className="hero-wrapper">
       <div className="paddings innerWidth hero-container flexCenter">
         <div className="flexColStart hero-left">
           <div className="hero-title">
@@ -56,7 +57,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </section>
+    </section><Companies /></>
   )
 }
 
