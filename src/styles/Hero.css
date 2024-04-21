@@ -77,3 +77,35 @@
 .stat :nth-child(1) :last-child {
     color: orange;
 }
+
+.hero-right {
+    animation: fade-left 2.5s ease forwards;
+}
+
+.fade-up-element {
+    animation: fade-up 1.5s ease forwards;
+}
+
+@keyframes fade-left {
+    from {
+        transform: translateX(30%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-up {
+    from {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+}

@@ -1,17 +1,21 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Navbar from "./components/Navbar"
-import Hero from './components/Hero'
-
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
+import Companies from './Components/Companies'
+import Residencies from './Components/Residencies'
+import Value from './Components/Value'
+import Contact from './Components/Contact'
 
 function App() {
-  return <div className="App">
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Hero/>}/>
-      </Routes>
-    </Router>
-  </div>
+  return (
+    <div className="App">
+      <Navbar />
+      <Hero />
+      <Companies />
+      <Residencies />
+      <Value/>
+      <Contact/>
+    </div>
+  )
 }
 
 export default App

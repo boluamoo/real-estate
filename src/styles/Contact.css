@@ -1,0 +1,13 @@
+.mode .button {
+    background: var(--light-blue);
+    color: var(--blue);
+}
+.mode .button:hover {
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
+
+.mode {
+    transition: all 300ms ease-in;
+}

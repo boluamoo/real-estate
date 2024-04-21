@@ -2,7 +2,7 @@
     width: 80%;
     margin: auto;
     gap: 1rem;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .c-container img {
