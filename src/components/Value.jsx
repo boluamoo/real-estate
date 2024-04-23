@@ -17,7 +17,7 @@ const Value = () => {
   const [className, setClassName] = useState(null) 
   return (
     <section className="v-wrapper ">
-      <div className="paddings innerWidth flex justify-center items-center v-container">
+      <div className="paddings innerWidth flex justify-center items-center v-container flex-wrap">
         {/* VALUE LEFT*/}
         <div className="v-left flex-1">
           <div className="border-[8px] border-solid border-[#e8e8e8ed] w-[30rem] h-[35rem] rounded-top-[3rem] rounded-t-[15rem] overflow-hidden">

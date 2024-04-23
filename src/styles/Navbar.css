@@ -60,7 +60,7 @@
     margin: 5px;
 }
 
-/* @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .navbar .rightSide a {
         width: 70px;
     }
@@ -86,4 +86,4 @@
     .hiddenLinks {
         display: none;
     }
-} */
+}

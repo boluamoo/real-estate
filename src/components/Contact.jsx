@@ -8,7 +8,10 @@ import { HiChatBubbleBottomCenter } from 'react-icons/hi2'
 const Contact = () => {
   return (
     <div className="contact-wrapper">
-      <div className="paddings innerWidth flex items-center justify-between">
+      <div
+        className="paddings innerWidth flex items-center justify-between
+      flex-wrap"
+      >
         <div className="c-left flex-col flex-1 gap-2">
           <div className="orangeText">Our Contacts</div>
           <div className="primaryText">Easy To Contact Us</div>
@@ -18,7 +21,7 @@ const Contact = () => {
             We believe a good place to live can make your life better
           </div>
           <div className="flexColStart contactModes mt-[2rem] gap-4">
-            <div className="flexStart gap-6">
+            <div className="flexStart gap-6 flex-wrap">
               <div className="flexColCenter mode w-[16rem] p-[1rem] border-[0.8px] border-solid border-[#80808024] rounded gap-4 hover:scale-[1.1] hover:shadow-[contactShadow]">
                 <div className="flex items-start w-full gap-6">
                   <div className="flexCenter icon p-[10px] bg-[#eeeeff] ">
